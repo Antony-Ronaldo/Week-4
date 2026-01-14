@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/93b66aac89.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <img src="https://res.cloudinary.com/clouddy/image/upload/v1768415256/Potrait_hyfmbi.jpg" class="profile-img" alt="Profile picture of Alex Morgan">
+                <p>Hello! I'm <strong>Alex Morgan</strong>, a web developer focused on building clear, accessible, and performant websites and applications. I specialize in front-end development using HTML, CSS, and JavaScript, and I enjoy bringing designs to life with attention to detail and usability.</p>
+                <p>I thrive on projects that improve user experience and accessibility. Outside of work, I contribute to open-source projects, explore modern frameworks, and experiment with design systems to keep my skills current.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML5 & Accessibility</span>
+                    </div>
+                    <p class="skill-description">Semantic HTML and ARIA basics to build accessible, well-structured pages that work across devices and assistive technologies.</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="skill-name">CSS3 & Responsive Design</span>
+                    </div>
+                    <p class="skill-description">Responsive layouts using Flexbox and Grid, CSS variables, and component-based styling to create clean, maintainable UIs.</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="skill-name">JavaScript & React</span>
+                    </div>
+                    <p class="skill-description">Modern JavaScript (ES6+) and React fundamentals for building interactive interfaces and managing component state.</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="skill-name">Backend & APIs</span>
+                    </div>
+                    <p class="skill-description">Node.js and Express for building APIs and integrating services, with an emphasis on clean, testable code.</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="skill-name">Databases</span>
+                    </div>
+                    <p class="skill-description">Experience with MongoDB and SQL databases, including data modeling, querying, and basic optimization techniques.</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="skill-name">Tools & Testing</span>
+                    </div>
+                    <p class="skill-description">Familiar with Git, build tools, and basic testing approaches to ensure quality and smooth development workflows.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education">
+                    <h3>B.Sc. (Hons) Computer Science — City Institute of Technology</h3>
+                    <p>Program: Computer Science (Specialization: Web Development)</p>
+                    <p>Status: 3rd Year (Expected Graduation: May 2026)</p>
+                </div>
+                <div class="education">
+                    <h3>Riverside Collegiate — Advanced Sciences</h3>
+                    <p>Focus: Experimental Sciences & Robotics</p>
+                    <p>Highlights: Captain of the Robotics Team; Regional Science Fair Winner (2019)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <div class="container">
+                <h2>Achievements</h2>
+                <div class="achievement">
+                    <img src="https://res.cloudinary.com/clouddy/image/upload/v1753111520/BasketBall_qbccak.jpg" alt="Achievement 1">
+                    <div class="achievement-text">
+                        <h3>Basket Ball Zonals Player</h3>
+                        <p>I am a Zonals player for my Higher Secondary School.</p>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <img src="https://res.cloudinary.com/clouddy/image/upload/v1768415006/Scam_bcqyor.jpg" alt="Achievement 2">
+                    <div class="achievement-text">
+                        <h3>Find Out a Scammer</h3>
+                        <p>I successfully identified and reported a scammer.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form method="post" action="submit_form.php">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+            <ul class="social-media">
+                <li><a href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
